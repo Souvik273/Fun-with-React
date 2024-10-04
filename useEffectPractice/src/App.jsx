@@ -1,7 +1,7 @@
 import { useState } from "react";
 import LoggerComponent from "./Components/LoggerComponent";
 import TimerComponent from "./Components/TimerComponent";
-import DataFetcher from "./DataFetcher";
+import DataFetcher from "./Components/DataFetcher";
 
 function App() {
   const [load, setLoad] = useState(true);
