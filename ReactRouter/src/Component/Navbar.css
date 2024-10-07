@@ -1,0 +1,11 @@
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    border: 1px solid #ccc;
+    background-color: bisque;
+    border-radius: 10px;
+}
+.active-class{
+    color: white;
+}
