@@ -1,18 +1,14 @@
-import React,{useRef} from 'react'
-
+import ChangeColor from "./Components/ChangeColor"
+import GotoTop from "./Components/GotoTop"
+import ScrollingImg from "./Components/ScrollingImg"
 
 function App() {
-  const topRef = useRef(null)
-
-  function scrollToTop(){
-    topRef.current.scrollIntoView({behavior:'smooth'});
-  }
+  
   return (
     <>
-      <div ref={topRef}>1</div>
-      <div>1</div>
-      <div>1</div>
-      <button onClick={scrollToTop}>Go to top</button>
+      <GotoTop/>
+      <ChangeColor/>
+      <ScrollingImg/>
     </>
   )
 }
